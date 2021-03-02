@@ -1,4 +1,3 @@
-
 // Header component
 
 import React, { Component } from 'react';

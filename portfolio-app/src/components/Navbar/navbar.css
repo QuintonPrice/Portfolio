@@ -1,0 +1,30 @@
+/* nav bar */
+nav {
+    background-color: #13300f;
+    position: fixed;
+    overflow: hidden;
+
+}
+
+/* nav links */ 
+.navbar a {
+    color: white;
+    padding: 12px 24px;
+    font-size: 2em;
+    float: left;
+    text-align: center;
+}
+
+/* navigation list items */
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+
+/* navbar link hover */
+.navbar a:hover {
+    background-color: #966529;
+    color: #13300f;
+    text-decoration: none;
+}
