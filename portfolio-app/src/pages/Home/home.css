@@ -1,3 +1,14 @@
-body {
+#home-main {
     background-image: url("../../img/mountain-range.jpeg");
+    width: 100vw;
+    height: 100vh;
+}
+
+#home-main h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 5px;
+    padding-top: 23%;
+    color: black;
+    text-align: center;
 }

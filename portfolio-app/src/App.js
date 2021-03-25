@@ -19,7 +19,7 @@ class App extends Component {
 
     return (
 
-      <body>
+      <div>
         <Router>
           <Switch>
             <Route path="/home" component={Home}></Route>
@@ -27,7 +27,7 @@ class App extends Component {
             <Redirect to={{pathname: "/"}} />
           </Switch>
         </Router>
-      </body>
+      </div>
     );
   }
 }

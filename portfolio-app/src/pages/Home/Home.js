@@ -2,15 +2,16 @@
 
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; // imports link functionality
-import '../../main.css'; // main css file //may need to change path
-//import '/home.css'; // fix this later!!!!!
+import '../../App.css'; // main css file //may need to change path
+import '../Home/home.css'; // fix this later!!!!!
 
 class Home extends Component {
     render() {
         return (
-          <body id="test">
-              <h1>This is a test for the Home Component!</h1>
-          </body>  
+          <div id="home-main">
+              <h1>Quinton Price</h1>
+              <p>Computer Science student</p>
+          </div>  
         )
     }
 }
