@@ -21,13 +21,11 @@ class App extends Component {
 
       <body>
         <Router>
-          <Navbar />
           <Switch>
             <Route path="/home" component={Home}></Route>
             <Redirect exact from="/" to="/home" />
             <Redirect to={{pathname: "/"}} />
           </Switch>
-          <p>This is a test!</p>
         </Router>
       </body>
     );

@@ -8,9 +8,9 @@ import '../../main.css'; // main css file //may need to change path
 class Home extends Component {
     render() {
         return (
-          <div>
+          <body id="test">
               <h1>This is a test for the Home Component!</h1>
-          </div>  
+          </body>  
         )
     }
 }
