@@ -3,9 +3,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; // imports link functionality
 import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
+import Social from '../../components/SocialCards/Social.js'; // imports Social component
 
 import '../../App.css'; // main css file //may need to change path
-import '../Home/home.css'; // fix this later!!!!!
+import '../Home/home.css'; // home css file
 
 class Home extends Component {
     render() {
@@ -14,7 +15,7 @@ class Home extends Component {
               <Navbar/>
               <h1 id="name" className="font-weight-bold text-uppercase text-center">Quinton Price</h1>
               <p id="subheader" className="text-center text-uppercase">Computer Science student</p>
-          </div>  
+          </div> 
         )
     }
 }

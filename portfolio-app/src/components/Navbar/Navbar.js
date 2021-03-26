@@ -10,10 +10,11 @@ class NavBar extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-dark navbar-fixed-top ml-auto">
                 <ul className="navbar-nav ml-auto">
-                    <li className="font-weight-bold"><Link to="/home">Home</Link></li>
-                    <li><Link to="/home">About Me</Link></li>
-                    <li><Link to="/home">Projects</Link></li>
-                    <li><Link to="/home">GitHub</Link></li>
+                    <li className="textlink"><Link to="/home">Home</Link></li>
+                    <li className="textlink"><Link to="/home">About Me</Link></li>
+                    <li className="textlink"><Link to="/home">Projects</Link></li>
+                    <li><a href="github.com/quintonprice"><i className="fab fa-github"></i></a></li>
+                    <li><a href="linkedin.com/in/quinton-price/"><i className="fab fa-linkedin"></i></a></li>
                 </ul>
             </nav >
         );

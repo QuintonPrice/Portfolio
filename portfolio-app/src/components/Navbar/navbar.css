@@ -3,11 +3,10 @@ nav {
     background-color: transparent;
     position: fixed;
     overflow: hidden;
-
 }
 
 /* nav links */ 
-nav a {
+.navbar a {
     color: white;
     padding: 10px 15px;
     font-size: 1.5em;
@@ -18,20 +17,18 @@ nav a {
 }
 
 /* navigation list items */
-nav li {
+.navbar li {
     display: inline;
     margin-right: .5rem;
 }
 
 
 /* navbar link hover */
-nav a:hover {
+.textlink a:hover {
     color: #52B788;
-    text-decoration: none;
-    
 }
 
-nav a::before {
+.textlink a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -44,7 +41,19 @@ nav a::before {
     transition: all .15s ease-in-out .05s;
   }
 
-nav a:hover::before {
+.textlink a:hover::before {
     visibility: visible;
     transform: scaleX(1);
   }
+
+.fab {
+    margin-right: .7rem;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fab:hover {
+    color: #52B788;
+    opacity: 0.7;
+}
