@@ -1,14 +1,20 @@
-#home-main {
-    background-image: url("../../img/mountain-range.jpeg");
+#home-div {
+    background-image: url("https://images.pexels.com/photos/167684/pexels-photo-167684.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     width: 100vw;
     height: 100vh;
 }
 
-#home-main h1 {
-    font-size: 20px;
-    letter-spacing: 2px;
+#name {
+    font-size: 55px;
+    letter-spacing: 4px;
     border: 5px;
-    padding-top: 23%;
-    color: black;
+    padding-top: 15%;
+    color: white;
     text-align: center;
+}
+
+#subheader {
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1.5px;
 }

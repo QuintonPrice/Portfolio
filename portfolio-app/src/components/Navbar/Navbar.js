@@ -8,12 +8,14 @@ import { Link } from 'react-router-dom'; // imports link functionality
 class NavBar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
-                <li><Link to="/home">Home</Link></li>
-                <li>Bike Trails</li>
-                <li>Weather Differences</li>
-                <li>COVID Info</li>
-            </nav>
+            <nav className="navbar navbar-expand-md navbar-dark navbar-fixed-top ml-auto">
+                <ul className="navbar-nav ml-auto">
+                    <li className="font-weight-bold"><Link to="/home">Home</Link></li>
+                    <li><Link to="/home">About Me</Link></li>
+                    <li><Link to="/home">Projects</Link></li>
+                    <li><Link to="/home">GitHub</Link></li>
+                </ul>
+            </nav >
         );
     }
 }
