@@ -3,7 +3,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; // imports link functionality
 import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
-import Social from '../../components/SocialCards/Social.js'; // imports Social component
 
 import '../../App.css'; // main css file //may need to change path
 import '../Home/home.css'; // home css file
