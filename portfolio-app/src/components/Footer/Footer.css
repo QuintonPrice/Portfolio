@@ -1,7 +1,8 @@
 footer {
     display: inline-block;
-    margin-left: 5px;
-    right: 100;
+    margin-left: 97vw;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 footer a {
@@ -11,4 +12,17 @@ footer a {
 footer p {
     color: rgb(201, 201, 201);
     display: inline-block;
+}
+
+.fas {
+    color: white;
+    margin-right: .7rem;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fas:hover {
+    color: #52B788;
+    opacity: 0.7;
 }

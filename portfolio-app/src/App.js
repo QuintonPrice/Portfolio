@@ -27,9 +27,9 @@ class App extends Component {
         <Router>
           <Switch>
             <Route path="/home" component={Home}></Route>
-            <Route path='/external' component={() => { window.location = 'github.com'; return null;} }/>
             <Redirect exact from="/" to="/home" />
             <Redirect to={{ pathname: "/" }} />
+            <Redirect push to="google.com" />
           </Switch>
           <Footer />
         </Router>

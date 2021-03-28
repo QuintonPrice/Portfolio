@@ -13,8 +13,8 @@ class NavBar extends Component {
                     <li className="textlink"><Link to="/home">Home</Link></li>
                     <li className="textlink"><Link to="/home">About Me</Link></li>
                     <li className="textlink"><Link to="/home">Projects</Link></li>
-                    <li><Link to="//google.com"><i className="fab fa-github"></i></Link></li>
-                    <li><a href="linkedin.com/in/quinton-price/"><i className="fab fa-linkedin"></i></a></li>
+                    <li><a target="blank" href="https://github.com/QuintonPrice"><i className="fab fa-github"></i></a></li>
+                    <li><a target="blank" href="https://www.linkedin.com/in/quinton-price/"><i className="fab fa-linkedin"></i></a></li>
                 </ul>
             </nav >
         );

@@ -1,7 +1,6 @@
 // Home page
 
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'; // imports link functionality
 import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
 import Footer from '../../components/Footer/Footer.js'; // imports Footer component
 
