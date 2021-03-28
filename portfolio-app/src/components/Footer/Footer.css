@@ -1,0 +1,14 @@
+footer {
+    display: inline-block;
+    margin-left: 5px;
+    right: 100;
+}
+
+footer a {
+    color: rgb(201, 201, 201);
+}
+
+footer p {
+    color: rgb(201, 201, 201);
+    display: inline-block;
+}

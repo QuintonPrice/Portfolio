@@ -1,12 +1,13 @@
 // footer component
 import React, { Component } from 'react';
+import './Footer.css'; // css import
 
 class Footer extends Component {
     render() {
         return (
-            <footer>
+            <footer className="fixed-bottom">
                 <a href="mailto:quintonp10@gmail.com">Contact</a>.
-                Quinton Price&copy;. All rights reserved.
+                <a href="google.com" target="blank">THIS IS A TEST</a>
             </footer>
         );
     }

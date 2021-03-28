@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState  } from 'react';
 import { Route, HashRouter as Router, Switch, Redirect } from 'react-router-dom';
 // import logo from './logo.svg';
 
@@ -9,9 +9,13 @@ import './App.css';
 import Home from './pages/Home/Home'
 
 // component import
+import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header'
 
+function Routers () {
+  
+}
 
 class App extends Component {
 
@@ -23,9 +27,11 @@ class App extends Component {
         <Router>
           <Switch>
             <Route path="/home" component={Home}></Route>
+            <Route path='/external' component={() => { window.location = 'github.com'; return null;} }/>
             <Redirect exact from="/" to="/home" />
-            <Redirect to={{pathname: "/"}} />
+            <Redirect to={{ pathname: "/" }} />
           </Switch>
+          <Footer />
         </Router>
       </div>
     );
