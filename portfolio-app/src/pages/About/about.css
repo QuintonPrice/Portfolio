@@ -1,0 +1,9 @@
+#about-div {
+    background-image: url("../../img/topography.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav a {
+    color: black;
+}

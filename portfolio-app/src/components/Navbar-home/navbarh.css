@@ -7,8 +7,8 @@ nav {
 }
 
 /* nav links */ 
-.navb a {
-    color: black;
+.navhome a {
+    color: white;
     padding: 10px 15px;
     font-size: 1.5em;
     float: left;
@@ -18,17 +18,18 @@ nav {
 }
 
 /* navigation list items */
-.navb li {
+.navhome li {
     display: inline;
     margin-right: .5rem;
 }
 
+
 /* navbar link hover */
-.textlink a:hover {
+.textlinkhome a:hover {
     color: #52B788;
 }
 
-.textlink a::before {
+.textlinkhome a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -41,7 +42,7 @@ nav {
     transition: all .15s ease-in-out .05s;
   }
 
-.textlink a:hover::before {
+.textlinkhome a:hover::before {
     visibility: visible;
     transform: scaleX(1);
   }

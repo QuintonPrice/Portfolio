@@ -5,15 +5,14 @@ import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar compon
 import Footer from '../../components/Footer/Footer.js'; // imports Footer component
 
 import '../../App.css'; // main css file //may need to change path
-import './about-me.css'; // home css file
+import './about.css'; // about css file
 
 class About extends Component {
     render() {
         return (
-          <div id="home-div">
+          <div id="about-div">
               <Navbar/>
-              <h1 id="name" className="font-weight-bold text-uppercase text-center">Quinton Price</h1>
-              <p id="subheader" className="text-center text-uppercase">Computer Science student</p>
+              <h1 className="font-weight-bold text-uppercase text-center">About </h1>
           </div> 
         )
     }
