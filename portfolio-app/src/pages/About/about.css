@@ -1,9 +1,31 @@
 #about-div {
-    background-image: url("../../img/topography.png");
+    /*background-image: url("../../img/so-white.png");*/
+    background-color: transparent;
     width: 100vw;
     height: 100vh;
 }
 
+/* header text */
+#header {
+    margin-bottom: 35px;
+}
+
+/* nav links */
 .nav a {
     color: black;
+}
+
+/* blog containers */
+.blog {
+    background-color: white;
+    width: 75vw;
+    height: 75vw;
+}
+
+#portrait {
+    margin: 20px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

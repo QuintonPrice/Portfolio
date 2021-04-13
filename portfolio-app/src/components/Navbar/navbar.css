@@ -1,15 +1,24 @@
 /* nav bar */
 nav {
     display: inline-block;
-    background-color: transparent;
+    background-color: white;
     position: fixed;
     overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#logo p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #52B788;
+    font-size: 2.3rem;
+    margin-left: 15%;
 }
 
 /* nav links */ 
 .navb a {
     color: black;
-    padding: 10px 15px;
+    padding: 15px;
     font-size: 1.5em;
     float: left;
     text-align: center;

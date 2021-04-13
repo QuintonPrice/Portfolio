@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom'; // imports link functionality
 class NavBar extends Component {
     render() {
         return (
-            <nav className="navb navbar navbar-expand-md navbar-dark navbar-fixed-top ml-auto">
+            <nav className="navb navbar sticky-top navbar-expand-md navbar-dark navbar-fixed-top shadow">
+                <li id="logo" className="mr-auto"><p>qprice</p></li>
                 <ul className="navbar-nav ml-auto">
                     <li className="textlink"><Link to="/home">Home</Link></li>
                     <li className="textlink"><Link to="/about">About Me</Link></li>
