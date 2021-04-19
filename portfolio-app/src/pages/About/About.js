@@ -15,8 +15,8 @@ class About extends Component {
             <div id="about-div">
                 <Navbar />
                 <h1 id="header" className="font-weight-bold text-uppercase text-center ">About Me</h1>
-                <div className="blog container border shadow">
-                    <img id="portrait" alt="picture of author" src={aboutpic}></img>
+                <div className="blog container rounded border shadow">
+                    <img id="portrait" className="rounded" alt="picture of author" src={aboutpic}></img>
                 </div>
             </div>
         )
