@@ -21,9 +21,7 @@ function Routers () {
 class App extends Component {
 
   render() {
-
     return (
-
       <div>
         <Router>
           <Switch>
