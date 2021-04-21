@@ -23,7 +23,7 @@
     display: block;
     text-align: center;
     background-color: white;
-    width: 75vw;
+    max-width: 80vw;
     padding: 30px;
 }
 
@@ -47,4 +47,11 @@
     font-family: "Roboto", sans-serif;
     letter-spacing: normal;
     font-size: 1.2em;
+}
+
+@media (min-width: 1000px)
+{
+    #blog {
+        max-width: 85vw;
+    }
 }
