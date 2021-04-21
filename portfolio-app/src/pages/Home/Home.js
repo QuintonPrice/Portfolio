@@ -12,7 +12,7 @@ class Home extends Component {
         return (
           <div id="home-div">
               <Navbar navId="navHome" logoId="" logoText="" logoClass="" class="navhome navbar navbar-expand-md bg-transparent navbar-fixed-top ml-auto"/>
-              <h1 id="name" className="font-weight-bold text-uppercase text-center">Quinton Price</h1>
+              <h1 id="name" className="font-weight-bold text-uppercase text-center">Quinton Price test</h1>
               <p id="subheader" className="text-center text-uppercase">Computer Science student</p>
           </div> 
         )
