@@ -8,6 +8,7 @@
 
 /* header text */
 #header {
+    margin-top: 40px;
     margin-bottom: 35px;
 }
 
@@ -17,16 +18,34 @@
 }
 
 /* blog containers */
-.blog {
+#blog {
+    overflow: hidden;
+    display: block;
+    text-align: center;
     background-color: white;
     width: 75vw;
-    height: 75vw;
+    padding: 30px;
 }
 
 #portrait {
-    margin: 20px;
-    width: 30%;
-    display: block;
-    margin-left: 20;
-    margin-right: auto;
+    width: 300px;
+    display: inline;
+    border: 5px;
+    float: left;
+    margin-right: 15px;
 }
+
+.about-text {
+    text-align: justify;
+}
+
+#blog h1 {
+    font-size: 1.5rem;
+}
+
+#blog p {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: normal;
+    font-size: 1.2em;
+}
+
