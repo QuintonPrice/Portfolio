@@ -1,11 +1,11 @@
 /* nav bar */
-#navb nav {
+nav {
     display: inline-block;
-    background-color: white;
     position: fixed;
     overflow: hidden;
     margin-bottom: 20px;
 }
+
 
 /* qprice logo */
 #logo p {
@@ -16,8 +16,29 @@
     margin-left: 15%;
 }
 
+/* nav bar home links */
+#navHome a {
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+
+#navHome a:hover, #navb a:hover {
+    color: #52B788;
+}
+
+/* nav bar home list items */
+#navHome li {
+    display: inline;
+    margin-right: .5rem;
+}
+
 /* nav links */ 
-.navb a {
+#navb a {
     color: black;
     padding: 15px;
     font-size: 1.5em;
@@ -28,7 +49,7 @@
 }
 
 /* navigation list items */
-.navb li {
+#navb li {
     display: inline;
     margin-right: .5rem;
 }

@@ -11,12 +11,8 @@ import About from './pages/About/About';
 
 // component import
 import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar-home/NavbarH';
 import Header from './components/Header/Header';
 
-function Routers () {
-  
-}
 
 class App extends Component {
 

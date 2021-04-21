@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom'; // imports link functionality
 class NavBar extends Component {
     render() {
         return (
-            <nav id="navb" className={this.props.class}>
-                <li id={this.props.id} className={this.props.logoClass}><p>{this.props.logoText}</p></li>
-                <ul className="navbar-nav ml-auto">
+            <nav id={this.props.navId} className={this.props.class}>
+                <li id={this.props.logoId} className={this.props.logoClass}><p>{this.props.logoText}</p></li>
+                <ul id="links" className="navbar-nav ml-auto">
                     <li className="textlink"><Link to="/home">Home</Link></li>
                     <li className="textlink"><Link to="/about">About Me</Link></li>
                     <li className="textlink"><Link to="/home">Projects</Link></li>

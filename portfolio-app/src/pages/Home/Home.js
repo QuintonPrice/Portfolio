@@ -1,7 +1,7 @@
 // Home page
 
 import React, { Component } from 'react';
-import NavbarH from '../../components/Navbar-home/NavbarH.js'; // imports NavBar component
+import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
 import Footer from '../../components/Footer/Footer.js'; // imports Footer component
 
 import '../../App.css'; // main css file //may need to change path
@@ -11,7 +11,7 @@ class Home extends Component {
     render() {
         return (
           <div id="home-div">
-              <NavbarH/>
+              <Navbar navId="navHome" logoId="" logoText="" logoClass="" class="navhome navbar navbar-expand-md bg-transparent navbar-fixed-top ml-auto"/>
               <h1 id="name" className="font-weight-bold text-uppercase text-center">Quinton Price</h1>
               <p id="subheader" className="text-center text-uppercase">Computer Science student</p>
           </div> 
