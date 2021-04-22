@@ -27,7 +27,6 @@ class App extends Component {
             <Redirect to={{ pathname: "/" }} />
             <Redirect push to="google.com" />
           </Switch>
-          <Footer />
         </Router>
       </div>
     );

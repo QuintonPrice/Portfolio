@@ -14,12 +14,16 @@ footer p {
     display: inline-block;
 }
 
-.fas {
+#email-home {
     color: white;
     margin-right: .7rem;
     font-size: 35px;
     text-align: center;
     text-decoration: none;
+}
+
+.fas {
+
   }
 
 .fas:hover {
