@@ -13,7 +13,7 @@ class About extends Component {
     render() {
         return (
             <div id="about-div">
-                <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-light navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto"/>
+                <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-white navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto"/>
                 <h1 id="header" className="font-weight-bold text-uppercase text-center ">About Me</h1>
                 <div id="blog" className="container rounded border shadow">
                     <img id="portrait" className="rounded" alt="picture of author" src={aboutpic}></img>
