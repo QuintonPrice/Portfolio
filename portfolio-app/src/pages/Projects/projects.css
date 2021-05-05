@@ -1,0 +1,45 @@
+#project-div {
+    /*background-image: url("../../img/so-white.png");*/
+    background-color: transparent;
+    background-image: url("../../img/topography.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+/* header text */
+#header-projects {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+/* nav links */
+.nav a {
+    color: black;
+}
+
+/* div that holds cards */
+#card-div {
+    display: flex;
+    width: 100%;
+}
+
+
+#portrait {
+    width: 300px;
+    display: inline;
+    border: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+.project-cards p {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: normal;
+}
+
+@media (min-width: 1000px)
+{
+    .project-cards {
+        max-width: 40rem;
+    }
+}

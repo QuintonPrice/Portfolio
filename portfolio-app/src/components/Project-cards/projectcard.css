@@ -1,0 +1,25 @@
+/* project cards */
+.project-cards {
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 450px;
+    height: 450px;
+}
+
+.project-cards h1 {
+    font-size: 1.5rem;
+}
+
+/* IMPORTANT: images must be a 2:1 width to height ratio. */
+.project-cards img {
+    height: 50%; 
+    width: 100%;
+}
+
+.btn {
+    color: white;
+    background-color: #52B788;
+   
+}

@@ -2,7 +2,6 @@
 
 import React, { Component } from 'react';
 import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
-import Footer from '../../components/Footer/Footer.js'; // imports Footer component
 
 import '../../App.css'; // main css file //may need to change path
 import './about.css'; // about css file
@@ -14,7 +13,7 @@ class About extends Component {
         return (
             <div id="about-div">
                 <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-white navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto"/>
-                <h1 id="header" className="font-weight-bold text-uppercase text-center ">About Me</h1>
+                <h1 id="header-about" className="font-weight-bold text-uppercase text-center ">About Me</h1>
                 <div id="blog" className="container rounded border shadow">
                     <img id="portrait" className="rounded" alt="picture of author" src={aboutpic}></img>
                     <h1 className="about-text font-weight-bold">Hi,</h1>

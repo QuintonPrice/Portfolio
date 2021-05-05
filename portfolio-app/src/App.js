@@ -8,6 +8,7 @@ import './App.css';
 // pages import
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
 
 // component import
 import Footer from './components/Footer/Footer';
@@ -23,6 +24,7 @@ class App extends Component {
           <Switch>
             <Route path="/home" component={Home}></Route>
             <Route path="/about" component={About}></Route>
+            <Route path="/projects" component={Projects}></Route>
             <Redirect exact from="/" to="/home" />
             <Redirect to={{ pathname: "/" }} />
             <Redirect push to="google.com" />
