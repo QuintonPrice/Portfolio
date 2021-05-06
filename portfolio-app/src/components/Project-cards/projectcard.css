@@ -18,8 +18,11 @@
     width: 100%;
 }
 
-.btn {
+.project-cards .btn {
     color: white;
     background-color: #52B788;
-   
+}
+
+.project-cards a:hover {
+    background-color: #42966f;
 }

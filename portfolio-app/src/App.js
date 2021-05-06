@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState  } from 'react';
+import React, { Component, } from 'react';
 import { Route, HashRouter as Router, Switch, Redirect } from 'react-router-dom';
 // import logo from './logo.svg';
 
@@ -11,9 +11,6 @@ import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 
 // component import
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-
 
 class App extends Component {
 

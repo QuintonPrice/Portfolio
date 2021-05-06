@@ -15,7 +15,7 @@ class About extends Component {
                 <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-white navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto"/>
                 <h1 id="header-about" className="font-weight-bold text-uppercase text-center ">About Me</h1>
                 <div id="blog" className="container rounded border shadow">
-                    <img id="portrait" className="rounded" alt="picture of author" src={aboutpic}></img>
+                    <img id="portrait" className="rounded" alt="author" src={aboutpic}></img>
                     <h1 className="about-text font-weight-bold">Hi,</h1>
                     <p className="about-text">My name is Quinton Price. I'm currently a sophomore Computer Science student at Walla Walla University.</p>
                 </div>
