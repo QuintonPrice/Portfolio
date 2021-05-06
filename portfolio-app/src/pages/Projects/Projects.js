@@ -7,7 +7,9 @@ import ProjectCard from '../../components/Project-cards/ProjectCard.js'; // impo
 import '../../App.css'; // main css file //may need to change path
 import './projects.css'; // projects css file
 
-import placeholder from '../../img/placeholder.png';
+import { CardData } from './CardData.js'; // data import for card data
+
+// TODO: Make cards go onto new row when more than three cards are displayed
 
 class Projects extends Component {
     render() {
@@ -16,9 +18,11 @@ class Projects extends Component {
                 <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-white navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto" />
                 <h1 id="header-projects" className="font-weight-bold text-uppercase text-center ">Projects</h1>
                 <div id="card-div">
-                    <ProjectCard cardImg="https://via.placeholder.com/1000x500/fafafa/?text=1000x500+Placeholder+Image" cardURL="#" cardTitle="Card title" cardText="This is placeholder text. When a project is added, it will go here!"/>
-                    <ProjectCard cardImg="https://via.placeholder.com/1000x500/fafafa/?text=1000x500+Placeholder+Image" cardURL="#" cardTitle="Card title" cardText="This is placeholder text. When a project is added, it will go here!"/>
-                    <ProjectCard cardImg="https://via.placeholder.com/1000x500/fafafa/?text=1000x500+Placeholder+Image" cardURL="#" cardTitle="Card title" cardText="This is placeholder text. When a project is added, it will go here!"/>
+                    {CardData.map((item, index) => {
+                        return (
+                            <ProjectCard cardImg={item.cardImg} cardURL={item.cardURL} cardTitle={item.cardTitle} cardText={item.cardText} />
+                        )
+                    })}
                 </div>
             </div>
         )
