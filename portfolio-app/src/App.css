@@ -11,3 +11,7 @@
 ::selection {
   background: #52B788; 
 }
+
+body {
+  background-image: url("img/topography.png");
+}

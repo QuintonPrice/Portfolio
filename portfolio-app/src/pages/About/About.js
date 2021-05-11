@@ -19,6 +19,7 @@ class About extends Component {
                     <h1 className="about-text font-weight-bold">Hi,</h1>
                     <p className="about-text">My name is Quinton Price. I'm currently a sophomore Computer Science student at Walla Walla University.</p>
                 </div>
+                
             </div>
         )
     }

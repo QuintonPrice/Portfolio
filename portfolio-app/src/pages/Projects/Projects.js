@@ -17,10 +17,17 @@ class Projects extends Component {
             <div id="project-div">
                 <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-white navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto" />
                 <h1 id="header-projects" className="font-weight-bold text-uppercase text-center ">Projects</h1>
-                <div id="card-div">
+                <div id="card-div" className="mx-auto row">
                     {CardData.map((item, index) => {
                         return (
-                            <ProjectCard cardImg={item.cardImg} cardURL={item.cardURL} cardTitle={item.cardTitle} cardText={item.cardText} />
+                            <div className="col-12 col-lg-4">
+                            <ProjectCard 
+                            cardImg={item.cardImg} 
+                            cardURL={item.cardURL} 
+                            cardTitle={item.cardTitle} 
+                            cardText={item.cardText} 
+                            />
+                            </div>
                         )
                     })}
                 </div>

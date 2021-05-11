@@ -4,8 +4,8 @@
     display: inline-block;
     text-align: center;
     background-color: white;
-    width: 450px;
     height: 450px;
+    margin-bottom: 35px;
 }
 
 .project-cards h1 {
@@ -18,8 +18,14 @@
     width: 100%;
 }
 
+.project-cards p {
+    text-align: left;
+    margin-left: 3%;
+}
+
 .project-cards .btn {
     color: white;
+    text-align: center;
     background-color: #52B788;
 }
 
