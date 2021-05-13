@@ -1,11 +1,7 @@
 /* nav bar */
 nav {
-    display: inline;
-    position: fixed;
-    overflow: hidden;
     margin-bottom: 20px;
 }
-
 
 /* qprice logo */
 #logo p {
@@ -14,6 +10,7 @@ nav {
     color: #52B788;
     font-size: 2.3rem;
     margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* nav bar home links */
@@ -77,7 +74,7 @@ nav {
     transform: scaleX(1);
   }
 
-.fab {
+.fab, .fas {
     margin-right: .7rem;
     font-size: 1.5em;
     text-align: center;
