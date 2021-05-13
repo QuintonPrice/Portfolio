@@ -1,6 +1,6 @@
 /* nav bar */
 nav {
-    display: inline-block;
+    display: inline;
     position: fixed;
     overflow: hidden;
     margin-bottom: 20px;

@@ -36,7 +36,7 @@
 }
 
 .about-text {
-    text-align: justify;
+    text-align: left;
 }
 
 #blog h1 {
@@ -49,9 +49,25 @@
     font-size: 1.2em;
 }
 
-@media (min-width: 1000px)
-{
+@media (min-width: 1000px) {
     #blog {
-        max-width: 80vw;
+        max-width: 90vw;
+    }
+}
+
+/* mobile devices */
+@media (max-width: 480px) {
+    #blog p{
+        font-size: 1rem;
+    }
+    #portrait {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .about-text {
+        text-align: left;
     }
 }

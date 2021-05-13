@@ -16,6 +16,7 @@ class NavBar extends Component {
                     <li className="textlink"><Link to="/projects">Projects</Link></li>
                     <li><a target="blank" href="https://github.com/QuintonPrice"><i className="fab fa-github"></i></a></li>
                     <li><a target="blank" href="https://www.linkedin.com/in/quinton-price/"><i className="fab fa-linkedin"></i></a></li>
+                    <li><a href="javascript:"></a></li>
                 </ul>
             </nav >
         );
