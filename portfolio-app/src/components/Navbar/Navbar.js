@@ -13,7 +13,7 @@ class NavBar extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><i className="fas fa-bars"></i></span>
                 </button>
-                <div className="collapse navbar-collapse">
+                <div id="navbarTogglerDemo03" className="collapse navbar-collapse">
                     <ul id="links" className="navbar-nav ml-auto">
                         <li className="nav-item active textlink"><Link className="nav-link" to="/home">Home</Link></li>
                         <li className="nav-item active textlink"><Link className="nav-link" to="/about">About Me</Link></li>
@@ -26,5 +26,7 @@ class NavBar extends Component {
         );
     }
 }
+
+//TODO: add a way to load javascript scripts
 
 export default NavBar;
