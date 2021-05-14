@@ -12,6 +12,9 @@ import Projects from './pages/Projects/Projects';
 
 // component import
 
+// TODO //
+// Add darkmode to app.js to update state, then pass that state value into each component and use conditions in components to check for class
+
 class App extends Component {
 
   render() {

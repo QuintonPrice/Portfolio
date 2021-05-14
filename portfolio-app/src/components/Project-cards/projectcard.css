@@ -37,7 +37,8 @@
 /* mobile devices */
 @media (max-width: 480px) {
     .project-cards {
-        padding-bottom:10%;
+        padding-bottom: 10%;
+        height: auto;
     }
     .project-cards .btn {
         margin-bottom: 10%;

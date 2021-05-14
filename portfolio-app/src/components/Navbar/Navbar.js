@@ -7,6 +7,8 @@ import { default as NavBS } from 'react-bootstrap/Nav';
 
 import { Link } from 'react-router-dom'; // imports link functionality
 
+// SEE APP.JS FOR IDEA ABOUT DARK MODE
+
 // navigation bar class
 class NavBar extends Component {
     render() {
