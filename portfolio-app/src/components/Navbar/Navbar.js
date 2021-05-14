@@ -15,7 +15,7 @@ class NavBar extends Component {
                 <li id={this.props.logoId} className={this.props.logoClass}><p>{this.props.logoText}</p></li>
                 <NavbarBS.Toggle aria-controls="navbarToggler">
                 </NavbarBS.Toggle>
-                <NavbarBS.Collapse variant="dark" bg="dark" id="navbarToggler">
+                <NavbarBS.Collapse id="navbarToggler">
                     <NavBS id="links" className="ml-auto">
                         <li className="textlink"><Link className="nav-link" to="/home">Home</Link></li>
                         <li className="textlink"><Link className="nav-link" to="/about">About Me</Link></li>

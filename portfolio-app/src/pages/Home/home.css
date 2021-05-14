@@ -19,3 +19,22 @@
     color: white;
     letter-spacing: 1.5px;
 }
+
+@media (min-width: 1920px) {
+    #name {
+        font-size: 80px;
+    }
+    #subheader {
+        font-size: 50px;
+    }
+}
+
+/* mobile devices */
+@media (max-width: 480px) {
+    #name {
+        margin-top: 50%;
+    }
+    #subheader {
+        margin-top: 5%;
+    }
+}

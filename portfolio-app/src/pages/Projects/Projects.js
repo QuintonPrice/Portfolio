@@ -15,7 +15,7 @@ class Projects extends Component {
     render() {
         return (
             <div id="project-div">
-                <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="navbar bg-white navbar-expand-md sticky-top navbar-fixed-top shadow ml-auto" />
+                <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="bg-white sticky-top navbar-fixed-top shadow ml-auto"/>
                 <h1 id="header-projects" className="font-weight-bold text-uppercase text-center ">Projects</h1>
                 <div id="card-div" className="mx-auto row">
                     {CardData.map((item, index) => {

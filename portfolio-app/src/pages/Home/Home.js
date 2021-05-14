@@ -11,9 +11,9 @@ class Home extends Component {
     render() {
         return (
           <div id="home-div">
-              <Navbar navId="navHome" logoId="" logoText="" logoClass="" class="navhome navbar navbar-expand-md bg-transparent navbar-fixed-top ml-auto"/>
-              <h1 id="name" className="font-weight-bold text-uppercase text-center">Quinton Price</h1>
-              <p id="subheader" className="text-center text-uppercase">Computer Science student</p>
+              <Navbar navId="navHome" logoId="" logoText="" logoClass="" class="navhome bg-transparent navbar-fixed-top ml-auto"/>
+              <h1 id="name" className="home-text font-weight-bold text-uppercase text-center">Quinton Price</h1>
+              <p id="subheader" className="home-text text-center text-uppercase">Computer Science student</p>
               <Footer emailid="email-home"/>
           </div> 
         )
