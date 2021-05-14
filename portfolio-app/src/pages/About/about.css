@@ -24,6 +24,7 @@
     text-align: center;
     background-color: white;
     max-width: 80vw;
+    height: 60%;
     padding: 30px;
 }
 
@@ -49,9 +50,10 @@
     font-size: 1.2em;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1920px) {
     #blog {
         max-width: 90vw;
+        height: 70%;
     }
 }
 
