@@ -15,3 +15,7 @@
 body {
   background-image: url("img/topography.png");
 }
+
+.body-dark {
+  background-image: url("img/dark-background.png");
+}

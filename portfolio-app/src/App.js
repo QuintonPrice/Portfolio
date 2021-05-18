@@ -17,9 +17,24 @@ import Projects from './pages/Projects/Projects';
 
 class App extends Component {
 
+  // App constructor
+  constructor (props) {
+    super(props);
+    this.state = {
+      darkModeActive: false // tracks darkMode
+    }
+  }
+
+  // sets darkmode for background
+  // TODO: add darkmode for other components by lifting state
+  darkModeToggle = () => {
+    this.setState({darkModeActive : !this.state.darkModeActive });
+  }
+
   render() {
+    const darkModeActive = this.state.darkModeActive; // variable to track darkmode
     return (
-      <div>
+      <body className={darkModeActive ? "body-dark" : null}>
         <Router>
           <Switch>
             <Route path="/home" component={Home}></Route>
@@ -30,7 +45,8 @@ class App extends Component {
             <Redirect push to="google.com" />
           </Switch>
         </Router>
-      </div>
+        <button className="button btn-dark" onClick={this.darkModeToggle}>Dark Mode</button>
+      </body>
     );
   }
 }
