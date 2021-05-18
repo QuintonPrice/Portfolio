@@ -45,7 +45,6 @@ class App extends Component {
             <Redirect push to="google.com" />
           </Switch>
         </Router>
-        <button className="button btn-dark" onClick={this.darkModeToggle}>Dark Mode</button>
       </body>
     );
   }
