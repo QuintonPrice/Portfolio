@@ -18,6 +18,7 @@ class About extends Component {
                 <div id="blog" className="container rounded border shadow">
                     <img id="portrait" className="rounded" alt="author" src={aboutpic}></img>
                     <h1 id="about-hi" className="about-text font-weight-bold">Hi,</h1>
+                    <br />
                     {AboutData.map((item, index) => {
                         return (
                             <p className="about-text" dangerouslySetInnerHTML={{__html: item["content"]}}></p> // TODO: remove the map feature
