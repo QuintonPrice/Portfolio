@@ -44,7 +44,7 @@ class About extends Component {
                         </div>
                         <div className="form-group font-weight-bold">
                             <label for="textInput">Message</label>
-                            <textarea name="textarea" className="form-control" id="textInput" rows="4" placeholder="Enter your message"></textarea>
+                            <textarea name="message" className="form-control" id="textInput" rows="4" placeholder="Enter your message"></textarea>
                         </div>
                         <button id="submit-button" type="submit" className="btn btn-primary">Submit</button>
                     </form>
