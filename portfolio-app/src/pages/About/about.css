@@ -23,7 +23,9 @@
     background-color: white;
     max-width: 85vw;
     height: auto;
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 30px;
 }
 
