@@ -21,9 +21,10 @@
     overflow: hidden;
     display: block;
     background-color: white;
-    max-width: 80vw;
+    max-width: 85vw;
     height: auto;
     padding: 30px;
+    margin-bottom: 30px;
 }
 
 #portrait {
@@ -48,6 +49,21 @@
     font-size: 1.2em;
 }
 
+/* contact div */
+#contact {
+    overflow: hidden;
+    display: block;
+    background-color: white;
+    max-width: 85vw;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#submit-button {
+    color: white;
+    background-color: #52B788;
+}
 
 /* download resume button */
 #download-resume {
@@ -57,7 +73,7 @@
     text-align: center;
     font-size: 1.3em;
     margin:auto;
-    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #52B788;
 }
 
@@ -68,10 +84,7 @@
 
 /* desktop devices */
 @media only screen and (min-width: 1224px) {
-    #blog {
-        max-width: 90vw;
-        height: auto;
-    }
+
 }
 
 /* mobile devices */
