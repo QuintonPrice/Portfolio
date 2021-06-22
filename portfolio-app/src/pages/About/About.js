@@ -11,6 +11,11 @@ import resume from '../../downloads/Resume.pdf';
 import { AboutData } from './AboutData.js';
 
 class About extends Component {
+
+    submitAlert = () => {
+        alert("Form submitted");
+    }
+
     render() {
         //var today = new Date();
         //var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
@@ -46,7 +51,7 @@ class About extends Component {
                             <label for="textInput">Message</label>
                             <textarea name="message" className="form-control" id="textInput" rows="4" placeholder="Enter your message"></textarea>
                         </div>
-                        <button id="submit-button" type="submit" className="btn btn-primary">Submit</button>
+                        <button id="submit-button" type="submit" onClick={this.submitAlert} className="btn btn-primary">Submit</button>
                     </form>
                 </div>
                 <a id="download-resume" href={resume} className="btn rounded border shadow" download="Quinton Price Resume 6-22-21"> Download My Resume </a>
