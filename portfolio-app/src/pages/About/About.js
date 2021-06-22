@@ -13,7 +13,7 @@ import { AboutData } from './AboutData.js';
 class About extends Component {
 
     submitAlert = () => {
-        alert("Form submitted");
+        alert("Form submitted!");
     }
 
     render() {
