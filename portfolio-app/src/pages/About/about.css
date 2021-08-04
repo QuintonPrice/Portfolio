@@ -39,6 +39,31 @@
     margin-bottom: 25px;
 }
 
+/* container for picture and caption */
+figure {
+    display: inline;
+    float: right;
+    border: 5px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* picture */
+figure #backpacking {
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+/* pic caption */
+figcaption {
+    width: 100%;
+    display: block;
+    color: grey;
+    text-align: center;
+
+}
+
 .about-text {
     text-align: left;
 }
@@ -92,19 +117,34 @@
 }
 
 /* mobile devices */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     
     #blog p {
         font-size: 1rem;
     }
-    #portrait {
-        width: 100%;
+
+    figure {
         float: none;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10px;
     }
+
+    figure #backpacking {
+        width: 100%;
+    }
+
+    figcaption {
+        color: transparent;
+        font-size: 0px;
+    }
+
+    #blog h1 {
+        margin-top: 25px;
+    }
+
     .about-text {
         text-align: left;
     }
+
 }
+

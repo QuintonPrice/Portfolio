@@ -7,6 +7,7 @@ import '../../App.css'; // main css file //may need to change path
 import './about.css'; // about css file
 
 import aboutpic from '../../img/about-me.jpeg';
+import backpacking from '../../img/backpacking.png';
 import resume from '../../downloads/Resume.pdf';
 import { AboutData } from './AboutData.js';
 
@@ -19,13 +20,16 @@ class About extends Component {
     render() {
         //var today = new Date();
         //var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-
+        // 
         return (
             <div className="about-div">
                 <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="bg-white sticky-top navbar-fixed-top shadow ml-auto" />
                 <h1 id="header-about" className="font-weight-bold text-uppercase text-center ">About Me</h1>
                 <div id="blog" className="container rounded border shadow">
-                    <img id="portrait" className="rounded" alt="author" src={aboutpic}></img>
+                    <figure>
+                        <img id="backpacking" className="rounded border shadow" alt="author" src={backpacking}></img>
+                        <figcaption className="font-italic">Backpacking in the Goat Rocks Wilderness</figcaption>
+                    </figure>
                     <h1 id="about-hi" className="about-text font-weight-bold">Hi,</h1>
                     <br />
                     {AboutData.map((item, index) => {
@@ -38,7 +42,7 @@ class About extends Component {
                 <div id="contact" className="container rounded border shadow">
                     <h2>Contact me!</h2>
                     <form name="contact-form" method="POST" data-netlify="true">
-                        <input type="hidden" name="form-name" value="contact-form"/>
+                        <input type="hidden" name="form-name" value="contact-form" />
                         <div className="form-group font-weight-bold">
                             <label for="nameInput">Name</label>
                             <input type="text" name="name" class="form-control" id="nameInput" placeholder="Enter your name"></input>
