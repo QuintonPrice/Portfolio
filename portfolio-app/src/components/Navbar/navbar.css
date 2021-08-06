@@ -13,6 +13,11 @@ nav {
     margin-right: 15%;
 }
 
+/* qprice logo button */
+#logo #logoButton {
+    padding: 0px;
+}
+
 
 /* nav bar home links */
 #navHome a {

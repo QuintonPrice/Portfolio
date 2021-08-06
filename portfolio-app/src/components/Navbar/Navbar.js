@@ -14,7 +14,7 @@ class NavBar extends Component {
     render() {
         return (
             <NavbarBS id={this.props.navId} className={this.props.class} expand="lg" >
-                <li id={this.props.logoId} className={this.props.logoClass}><p>{this.props.logoText}</p></li>
+                <li id={this.props.logoId} className={this.props.logoClass}><a id="logoButton" href="#"><p>{this.props.logoText}</p></a></li>
                 <NavbarBS.Toggle aria-controls="navbarToggler">
                 </NavbarBS.Toggle>
                 <NavbarBS.Collapse id="navbarToggler">
