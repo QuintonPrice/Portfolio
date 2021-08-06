@@ -13,7 +13,7 @@ class ProjectCards extends Component {
                 <div className="card-body">
                     <h5 className="card-title font-weight-bold">{this.props.cardTitle}</h5>
                     <p className="card-text">{this.props.cardText}</p>
-                    <a href={this.props.cardURL} className="btn" target="_blank">See Project</a>
+                    <a href={this.props.cardURL} className="btn" target="_blank" rel="noreferrer">See Project</a>
                 </div>
             </div>
         )
