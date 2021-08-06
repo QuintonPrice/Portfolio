@@ -1,7 +1,7 @@
 export const CardData = [
     {
         cardImg: "https://i.imgur.com/eqDtcm0.png",
-        cardURL: "#",
+        cardURL: "https://github.com/QuintonPrice/Portfolio",
         cardTitle: "Portfolio Project",
         cardText: "One of the most recent projects, my own website! I've built this from scratch using ReactJS and deploy/host it using Netlify. Features include API calls, loading posts from json files, and more."
     },
