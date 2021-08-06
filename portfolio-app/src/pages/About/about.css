@@ -125,6 +125,7 @@ figcaption {
 
     figure {
         float: none;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -147,4 +148,3 @@ figcaption {
     }
 
 }
-
