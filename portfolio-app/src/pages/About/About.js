@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar compon
 import '../../App.css'; // main css file //may need to change path
 import './about.css'; // about css file
 
-import aboutpic from '../../img/about-me.jpeg';
+// import aboutpic from '../../img/about-me.jpeg';
 import backpacking from '../../img/backpacking.png';
 import resume from '../../downloads/Resume.pdf';
 import { AboutData } from './AboutData.js';
