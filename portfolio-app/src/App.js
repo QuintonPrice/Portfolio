@@ -39,10 +39,8 @@ class App extends Component {
             <Route path="/home" component={Home}></Route>
             <Route path="/about" component={About}></Route>
             <Route path="/projects" component={Projects}></Route>
-            <Route component={FourOFourPage}></Route>
             <Redirect exact from="/" to="/home" />
             <Redirect to={{ pathname: "/" }} />
-            <Redirect push to="google.com" />
           </Switch>
         </Router>
       </body>
