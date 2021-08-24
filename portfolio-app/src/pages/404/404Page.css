@@ -1,0 +1,17 @@
+#fourofour {
+    background-image: url('./../../img/mountain-range.jpeg');
+    height: 100vh;
+}
+
+#fourofourtext {
+    color: white;
+    padding-top: 40vh;
+}
+
+#gohome {
+    margin-top: 15px;
+    font-size: 1.4em;
+}
+
+a {
+}
