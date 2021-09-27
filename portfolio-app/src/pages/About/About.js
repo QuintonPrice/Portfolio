@@ -45,7 +45,7 @@ class About extends Component {
                         <input type="hidden" name="form-name" value="contact-form" />
                         <div className="form-group font-weight-bold">
                             <label for="nameInput">Name</label>
-                            <input type="text" name="name" class="form-control" id="nameInput" placeholder="Enter your name"></input>
+                            <input autocomplete="name" type="text" name="name" class="form-control" id="nameInput" placeholder="Enter your name"></input>
                         </div>
                         <div className="form-group font-weight-bold">
                             <label for="emailInput">Email Address</label>
