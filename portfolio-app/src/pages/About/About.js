@@ -58,7 +58,7 @@ class About extends Component {
                         <button id="submit-button" type="submit" onClick={this.submitAlert} className="btn btn-primary">Submit</button>
                     </form>
                 </div>
-                <a id="download-resume" href={resume} className="btn rounded border shadow" download="Quinton Price Resume 6-22-21"> Download My Resume </a>
+                <a id="download-resume" href={resume} className="btn rounded border shadow" download="Quinton Price Resume 8-27-21"> Download My Resume </a>
             </div>
         )
     }
