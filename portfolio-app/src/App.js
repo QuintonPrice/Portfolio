@@ -6,7 +6,7 @@ import { Route, HashRouter as Router, Switch, Redirect } from 'react-router-dom'
 import './App.css';
 
 // pages import
-import FourOFourPage from './pages/404/404Page';
+//import FourOFourPage from './pages/404/404Page';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
