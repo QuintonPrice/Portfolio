@@ -12,27 +12,16 @@ export const CardData = [
         cardText: "Android app I developed for a class that serves as a traveling tool. Gives user the ability to search for nearby locations with search criteria, look up information on a city or place, and view a map"    
     },
     {
+        cardImg: "https://images.pexels.com/photos/7787422/pexels-photo-7787422.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+        cardURL: "https://github.com/QuintonPrice/TrailApp",
+        cardTitle: "Hiking Trail App (In Progress)",
+        cardText: "Website that will serve as a repository for hiking, mountain biking, and similar trails. Users will have the ability to register for accounts, add trails and pictures, save favorites, and more. Built using React.js and Firebase."    
+    },
+    {
         cardImg: "https://media.cntraveler.com/photos/60480c67ff9cba52f2a91899/16:9/w_2991,h_1682,c_limit/01-velo-header-seattle-needle.jpg",
         cardURL: "https://github.com/QuintonPrice/project-CPTR220",
         cardTitle: "Seattle Blog Project",
         cardText: "Website that serves as a guide for Seattle. Developed with a group for a project in an Intro to Web Development class. Built with React and feature API requests, React state, and more."    
     },
-    {
-        cardImg: "https://via.placeholder.com/1000x500/fafafa/?text=1000x500+Placeholder+Image",
-        cardURL: "#",
-        cardTitle: "Card title",
-        cardText: "This is placeholder text. When a project is added, it will go here!"    
-    },
-    {
-        cardImg: "https://via.placeholder.com/1000x500/fafafa/?text=1000x500+Placeholder+Image",
-        cardURL: "#",
-        cardTitle: "Card title",
-        cardText: "This is placeholder text. When a project is added, it will go here!"    
-    },
-    {
-        cardImg: "https://via.placeholder.com/1000x500/fafafa/?text=1000x500+Placeholder+Image",
-        cardURL: "#",
-        cardTitle: "Card title",
-        cardText: "This is placeholder text. When a project is added, it will go here!"    
-    },
+
 ]

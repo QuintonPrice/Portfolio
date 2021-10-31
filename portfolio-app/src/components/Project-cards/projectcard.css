@@ -6,7 +6,7 @@
     background-color: white;
     height: 90%;
     margin-bottom: 35px;
-    padding-bottom: 2%;
+    padding-bottom: 10%;
 }
 
 .project-cards h1 {
@@ -21,12 +21,11 @@
 
 .project-cards p {
     text-align: left;
-    margin-left: 3%;
+    padding-left: 3%;
 }
 
 .project-cards .btn {
     color: white;
-    text-align: center;
     background-color: #52B788;
 }
 
@@ -41,6 +40,18 @@
         height: auto;
     }
     .project-cards .btn {
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+/* desktop devices */
+@media (min-width: 1200px) {
+    .project-cards {
+        width: 90%;
+        padding-bottom: 10%;
+    }
+    .project-cards img {
+        height: 55%; 
+        width: 100%;
     }
 }
