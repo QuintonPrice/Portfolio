@@ -47,11 +47,11 @@
 /* desktop devices */
 @media (min-width: 1200px) {
     .project-cards {
-        width: 90%;
+        width: 100%;
         padding-bottom: 10%;
     }
     .project-cards img {
-        height: 55%; 
+        height: 50%; 
         width: 100%;
     }
 }
