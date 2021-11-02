@@ -15,7 +15,7 @@ export const CardData = [
         cardImg: "https://images.pexels.com/photos/7787422/pexels-photo-7787422.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
         cardURL: "https://github.com/QuintonPrice/TrailApp",
         cardTitle: "Hiking Trail App (In Progress)",
-        cardText: "Website that will serve as a repository for hiking, mountain biking, and similar trails. Users will have the ability to register for accounts, add trails and pictures, save favorites, and more. Built using React.js and Firebase."    
+        cardText: "Website that will serve as a repository for hiking, mountain biking, and similar trails. Users will have the ability to register for accounts, add trails and pictures, save favorites, and more. Built using React.js, Google Firebase, Bootstrap, Google Authentication, and more."    
     },
     {
         cardImg: "https://media.cntraveler.com/photos/60480c67ff9cba52f2a91899/16:9/w_2991,h_1682,c_limit/01-velo-header-seattle-needle.jpg",
