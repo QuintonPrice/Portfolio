@@ -32,7 +32,7 @@ class About extends Component {
                     </figure>
                     <h1 id="about-hi" className="about-text font-weight-bold">Hi,</h1>
                     <br />
-                    {AboutData.map((item, index) => {
+                    {AboutData.map((item) => {
                         return (
                             <p className="about-text" dangerouslySetInnerHTML={{ __html: item["content"] }}></p> // TODO: remove the map feature
                         )
