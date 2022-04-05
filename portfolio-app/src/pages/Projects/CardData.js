@@ -23,5 +23,11 @@ export const CardData = [
         cardTitle: "Seattle Blog Project",
         cardText: "Website that serves as a guide for Seattle. Developed with a group for a project in an Intro to Web Development class. Built with React and feature API requests, React state, and more."    
     },
+    {
+        cardImg: "https://images.pexels.com/photos/65169/pexels-photo-65169.jpeg",
+        cardURL: "https://github.com/QuintonPrice/CPTR355-Project",
+        cardTitle: "3D Checkers Game",
+        cardText: "Created for a computer graphics class, this is a 3D checkers game created with BabylonJS! It features shadows, animations, blender meshes, and more."
+    }
 
 ]
