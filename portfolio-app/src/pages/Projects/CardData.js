@@ -14,7 +14,7 @@ export const CardData = [
     {
         cardImg: "https://images.pexels.com/photos/6465964/pexels-photo-6465964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         cardURL: "https://github.com/QuintonPrice/TrailApp",
-        cardTitle: "Hiking Trail App (In Progress)",
+        cardTitle: "Hiking Trail App",
         cardText: "Website that will serve as a repository for hiking, mountain biking, and similar trails. Users will have the ability to register for accounts, add trails and pictures, save favorites, and more. Built using React.js, Google Firebase, Bootstrap, Google Authentication, and more."    
     },
     {
@@ -27,7 +27,7 @@ export const CardData = [
         cardImg: "https://images.pexels.com/photos/65169/pexels-photo-65169.jpeg",
         cardURL: "https://github.com/QuintonPrice/CPTR355-Project",
         cardTitle: "3D Checkers Game",
-        cardText: "Created for a computer graphics class, this is a 3D checkers game created with BabylonJS! It features shadows, animations, blender meshes, and more."
+        cardText: "Created for a computer graphics class, this is a 3D checkers game created with BabylonJS! It features shadows, animations, blender meshes, and more. (Note: Picture is not accurate!)"
     }
 
 ]
