@@ -17,9 +17,7 @@ class About extends Component {
     }
 
     render() {
-        //var today = new Date();
-        //var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-        // 
+
         return (
             <div className="about-div">
                 <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="bg-white sticky-top navbar-fixed-top shadow ml-auto" />
