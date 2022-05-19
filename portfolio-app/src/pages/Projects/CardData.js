@@ -15,7 +15,7 @@ export const CardData = [
         cardImg: "https://images.pexels.com/photos/6465964/pexels-photo-6465964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         cardURL: "https://github.com/QuintonPrice/TrailApp",
         cardTitle: "Hiking Trail App",
-        cardText: "Website that will serve as a repository for hiking, mountain biking, and similar trails. Users will have the ability to register for accounts, add trails and pictures, save favorites, and more. Built using React.js, Google Firebase, Bootstrap, Google Authentication, and more."    
+        cardText: "Website that serves as a repository for hiking, mountain biking, and similar trails. Users have the ability to register for accounts, add trails and pictures, and more. Built using React.js, Google Firebase, Bootstrap, Google Authentication, and more."    
     },
     {
         cardImg: "https://media.cntraveler.com/photos/60480c67ff9cba52f2a91899/16:9/w_2991,h_1682,c_limit/01-velo-header-seattle-needle.jpg",
@@ -28,6 +28,12 @@ export const CardData = [
         cardURL: "https://github.com/QuintonPrice/CPTR355-Project",
         cardTitle: "BabylonJS Checkers Game",
         cardText: "Created for a computer graphics class, this is a 3D checkers game created with BabylonJS! It features shadows, animations, blender meshes, and more. (Note: Picture is not accurate!)"
+    }
+    {
+        cardImg: "https://images.pexels.com/photos/3144205/pexels-photo-3144205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        cardURL: "https://github.com/QuintonPrice/Swift-Weather",
+        cardTitle: "iOS Weather App (In Progress)",
+        cardText: "Close clone of the default iOS weather app. Using this to learn SwitfUI basics."
     }
 
 ]
