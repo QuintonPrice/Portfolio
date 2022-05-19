@@ -26,7 +26,7 @@ export const CardData = [
     {
         cardImg: "https://images.pexels.com/photos/65169/pexels-photo-65169.jpeg",
         cardURL: "https://github.com/QuintonPrice/CPTR355-Project",
-        cardTitle: "3D Checkers Game",
+        cardTitle: "BabylonJS Checkers Game",
         cardText: "Created for a computer graphics class, this is a 3D checkers game created with BabylonJS! It features shadows, animations, blender meshes, and more. (Note: Picture is not accurate!)"
     }
 
