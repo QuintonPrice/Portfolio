@@ -1,23 +1,20 @@
-// Project card component
+import React from 'react';
+import { Card } from 'react-bootstrap';
+import './projectcard.css';
 
-import React, { Component } from 'react';
+const ProjectCard = ({ card }) => {
+  const { cardImg, cardURL, cardTitle, cardText } = card;
+  return (
+    <a href={cardURL} target="_blank" rel="noopener noreferrer">
+      <Card className="project-card text-dark">
+        <Card.Img variant="top" src={cardImg} className="card-img" />
+        <Card.Body className="card-body">
+          <Card.Title>{cardTitle}</Card.Title>
+          <Card.Text>{cardText}</Card.Text>
+        </Card.Body>
+      </Card>
+    </a>
+  );
+};
 
-import '../../App.css'; // App.css import
-import './projectcard.css'; // project cards css file
-
-class ProjectCards extends Component {
-    render() {
-        return (
-            <div className="card mx-auto project-cards rounded border shadow ">
-                <img className="card-img-top" alt="Project cards"src={this.props.cardImg}></img>
-                <div className="card-body">
-                    <h5 className="card-title font-weight-bold">{this.props.cardTitle}</h5>
-                    <p className="card-text">{this.props.cardText}</p>
-                    <a href={this.props.cardURL} className="btn text-center align-bottom" target="_blank" rel="noreferrer">See Project</a>
-                </div>
-            </div>
-        )
-    }
-}
-
-export default ProjectCards;
+export default ProjectCard;

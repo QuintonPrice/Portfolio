@@ -1,35 +1,9 @@
-#project-div {
-    background-color: transparent;
-    background-repeat:repeat;
-    width: 100vw;
-    height: 100vh;
+.project-card {
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 2rem;
 }
 
-/* header text */
-#header-projects {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: #343a40;
-}
-
-/* nav links */
-.nav a {
-    color: black;
-}
-
-/* div that holds cards */
-#card-div {
-    display: flex;
-    width: 95%;
-}
-
-.project-cards p {
-    font-family: "Roboto", sans-serif;
-    letter-spacing: normal;
-}
-
-@media (min-width: 1000px)
-{
-    .project-cards {
-    }
+.project-card:hover {
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  transition: all 0.1s ease-in-out;
 }
