@@ -6,14 +6,6 @@ import "./navbar.css";
 
 function NavBar(props) {
     const shadowClass = props.shadow ? 'shadow' : '';
-    
-    const textColor = () => {
-        if (shadowClass) {
-            return "text-white";
-        } else {
-            return "text-dark";
-        }
-    }
 
     return (
         <Navbar id="navbar" bg={props.background} expand="lg" fixed="top" className={`d-flex justify-content-between align-items-center sticky-top ${shadowClass}`}>

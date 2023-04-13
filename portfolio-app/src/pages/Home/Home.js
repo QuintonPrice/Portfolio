@@ -1,8 +1,8 @@
 // Home page
 import React, { Component } from 'react';
 import NavBar from '../../components/Navbar/Navbar';
-import '../../App.css'; // main css file //may need to change path
-import '../Home/home.css'; // home css file
+import '../../App.css';
+import '../Home/home.css';
 
 class Home extends Component {
     render() {
