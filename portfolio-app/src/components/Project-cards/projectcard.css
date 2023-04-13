@@ -1,58 +1,23 @@
-/* project cards */
-.project-cards {
-    overflow: hidden;
-    display: inline-block;
-    text-align: center;
-    background-color: white;
-    height: 90%;
-    margin-bottom: 35px;
-    padding-bottom: 10%;
-    max-height: 600px;
+.project-card {
+  width: 45%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.project-cards h1 {
-    font-size: 1.5rem;
+.card-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
-/* IMPORTANT: images must be a 2:1 width to height ratio. */
-.project-cards img {
-    height: 50%; 
-    width: 100%;
+.card-body {
+  height: 200px;
 }
 
-.project-cards p {
-    text-align: left;
-    padding-left: 3%;
-}
-
-.project-cards .btn {
-    color: white;
-    background-color: #52B788;
-}
-
-.card-body a:hover {
-    background-color: #42966f;
-}
-
-/* mobile devices */
-@media (max-width: 480px) {
-    .project-cards {
-        padding-bottom: 10%;
-        height: auto;
-    }
-    .project-cards .btn {
-        margin-bottom: 5%;
-    }
-}
-
-/* desktop devices */
-@media (min-width: 1200px) {
-    .project-cards {
-        width: 100%;
-        /* padding-bottom: 10%; */
-    }
-    .project-cards img {
-        height: 50%; 
-        width: 100%;
-    }
+@media (max-width: 768px) {
+  .project-card {
+    width: 80%;
+  }
 }

@@ -1,39 +1,35 @@
-// Projects page
+// Projects.js
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from '../../components/Project-cards/ProjectCard.js';
+import NavBar from '../../components/Navbar/Navbar.js';
+import { CardData } from './CardData.js';
+import './projects.css';
 
-import React, { Component } from 'react';
-import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
-import ProjectCard from '../../components/Project-cards/ProjectCard.js'; // imports ProjectCard component
-
-import '../../App.css'; // main css file //may need to change path
-import './projects.css'; // projects css file
-
-import { CardData } from './CardData.js'; // data import for card data
-
-// TODO: Make cards go onto new row when more than three cards are displayed
-
-class Projects extends Component {
-    render() {
-        return (
-            <div id="project-div">
-                <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="bg-white sticky-top navbar-fixed-top shadow ml-auto"/>
-                <h1 id="header-projects" className="font-weight-bold text-uppercase text-center ">Projects</h1>
-                <div id="card-div" className="mx-auto row">
-                    {CardData.map((item, index) => {
-                        return (
-                            <div className="col-12 col-lg-4">
-                            <ProjectCard 
-                            cardImg={item.cardImg} 
-                            cardURL={item.cardURL} 
-                            cardTitle={item.cardTitle} 
-                            cardText={item.cardText} 
-                            />
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-        )
-    }
-}
+const Projects = () => {
+  return (
+    <>
+    <NavBar background="white" logoText='qprice' shadow="t" page="projects"/>
+    <Container>
+      {CardData.map((card, index) => (
+        index % 2 === 0 ? (
+          <Row key={index}>
+            <Col>
+              <ProjectCard card={card} />
+            </Col>
+            {index === CardData.length - 1 ? (
+              <Col></Col>
+            ) : (
+              <Col>
+                <ProjectCard card={CardData[index + 1]} />
+              </Col>
+            )}
+          </Row>
+        ) : null
+      ))}
+    </Container>
+    </>
+  );
+};
 
 export default Projects;

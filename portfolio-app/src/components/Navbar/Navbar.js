@@ -1,36 +1,34 @@
-// NavBar component
+import { Link } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "./navbar.css";
 
-import React, { Component } from 'react';
-import './navbar.css';
-import { default as NavbarBS } from 'react-bootstrap/Navbar';
-import { default as NavBS } from 'react-bootstrap/Nav';
-
-import { Link } from 'react-router-dom'; // imports link functionality
-
-// SEE APP.JS FOR IDEA ABOUT DARK MODE
-
-// navigation bar class
-class NavBar extends Component {
-    render() {
-        return (
-            <NavbarBS id={this.props.navId} className={this.props.class} expand="lg" >
-                <li id={this.props.logoId} className={this.props.logoClass}><a id="logoButton" href="/#"><p>{this.props.logoText}</p></a></li>
-                <NavbarBS.Toggle aria-controls="navbarToggler">
-                </NavbarBS.Toggle>
-                <NavbarBS.Collapse id="navbarToggler">
-                    <NavBS id="links" className="ml-auto">
-                        <li className="textlink"><Link className="nav-link" to="/home">Home</Link></li>
-                        <li className="textlink"><Link className="nav-link" to="/about">About Me</Link></li>
-                        <li className="textlink"><Link className="nav-link" to="/projects">Projects</Link></li>
-                        <li><a className="nav-link" target="blank" href="https://github.com/QuintonPrice"><i className="fab fa-github"></i></a></li>
-                        <li><a className="nav-link" target="blank" href="https://www.linkedin.com/in/quinton-price/"><i className="fab fa-linkedin"></i></a></li>
-                    </NavBS>
-                </NavbarBS.Collapse>
-            </NavbarBS >
-        );
+function NavBar(props) {
+    const shadowClass = props.shadow ? 'shadow' : '';
+    
+    const textColor = () => {
+        if (shadowClass) {
+            return "text-white";
+        } else {
+            return "text-dark";
+        }
     }
-}
 
-//TODO: add a way to load javascript scripts
+    return (
+        <Navbar id="navbar" bg={props.background} expand="lg" fixed="top" className={`d-flex justify-content-between align-items-center sticky-top ${shadowClass}`}>
+            <Navbar.Brand id="logo" className="fw-bold text-clear" href="#home">
+                {props.logoText}
+            </Navbar.Brand>
+            <Nav id="nav" className="d-flex justify-content-end align-items-center text-white">
+                <Link to="/home" className="nav-link mx-3"><p className={props.page}>Home</p></Link>
+                <Link to="/about" className="nav-link mx-3"><p className={props.page}>About Me</p></Link>
+                <Link to="/projects" className="nav-link mx-3"><p className={props.page}>Projects</p></Link>
+                <a className="nav-link navIcon mx-3" href="https://github.com/QuintonPrice"><FaGithub className={props.page}/></a>
+                <a className="nav-link navIcon mx-3" href="https://www.linkedin.com/in/quinton-price/"><FaLinkedin  className={props.page}/></a>
+            </Nav>
+        </Navbar>
+    );
+}
 
 export default NavBar;

@@ -1,8 +1,7 @@
 // About page
 
 import React, { Component } from 'react';
-import Navbar from '../../components/Navbar/Navbar.js'; // imports NavBar component
-
+import NavBar from '../../components/Navbar/Navbar';
 import '../../App.css'; // main css file //may need to change path
 import './about.css'; // about css file
 
@@ -20,7 +19,7 @@ class About extends Component {
 
         return (
             <div className="about-div">
-                <Navbar navId="navb" logoId="logo" logoText="qprice" logoClass="mr-auto" class="bg-white sticky-top navbar-fixed-top shadow ml-auto" />
+                <NavBar background="white" logoText='qprice' shadow="t" page="about"/>
                 <h1 id="header-about" className="font-weight-bold text-uppercase text-center ">About Me</h1>
                 <div id="blog" className="container rounded border shadow">
                     <figure>
