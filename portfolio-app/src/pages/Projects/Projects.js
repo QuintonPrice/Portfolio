@@ -10,6 +10,7 @@ const Projects = () => {
   return (
     <>
     <NavBar background="white" logoText='qprice' shadow="t" page="projects"/>
+    <h1 id="header-about" className="font-weight-bold text-uppercase text-center ">Projects</h1>
     <Container>
       {CardData.map((card, index) => (
         index % 2 === 0 ? (

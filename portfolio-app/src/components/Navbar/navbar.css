@@ -56,5 +56,8 @@
   color: #52b788;
 }
 
-
-
+@media (max-width: 991.98px) {
+  .navbar-toggler-icon.clear-bg {
+    background-color: white;
+  }
+}

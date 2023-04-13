@@ -77,6 +77,11 @@
     padding-right: 0;
 }
 
+#submitButton {
+    background-color: #52b788;
+    outline: #52b788;
+}
+
 /* mobile devices */
 @media (max-width: 600px) {
   #blog p {

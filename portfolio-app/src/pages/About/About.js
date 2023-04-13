@@ -51,7 +51,7 @@ class About extends Component {
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" name="message" rows="4" placeholder="Enter your message" />
                         </Form.Group>
-                        <Button variant="primary" type="submit" onClick={this.submitAlert}>Submit</Button>
+                        <Button id="submitButton" variant="primary" type="submit" onClick={this.submitAlert}>Submit</Button>
                     </Form>
                 </Container>
 

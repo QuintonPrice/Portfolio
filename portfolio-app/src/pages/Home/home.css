@@ -30,3 +30,14 @@
         margin-top: 5%;
     }
 }
+
+@media (max-width: 767px) {
+    #name {
+      margin-top: 30%; /* adjust this value as needed */
+    }
+    
+    #subheader {
+      margin-top: 3%; /* adjust this value as needed */
+    }
+  }
+  
