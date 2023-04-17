@@ -7,7 +7,7 @@ const ProjectCard = ({ card }) => {
   return (
     <a href={cardURL} target="_blank" rel="noopener noreferrer">
       <Card className="project-card text-dark">
-        <Card.Img variant="top" src={cardImg} className="card-img" />
+        <Card.Img id="cardImg" variant="top" src={cardImg} />
         <Card.Body className="card-body">
           <Card.Title>{cardTitle}</Card.Title>
           <Card.Text>{cardText}</Card.Text>

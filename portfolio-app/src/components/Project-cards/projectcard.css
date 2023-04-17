@@ -6,3 +6,7 @@
   bottom: 0; */
 }
 
+#cardImg {
+  height: 40vh;
+  object-fit: cover;
+}
